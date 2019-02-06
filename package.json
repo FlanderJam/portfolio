@@ -1,0 +1,15 @@
+{
+  "name": "kevin-wilmot-portfolio",
+  "version": "1.0.0",
+  "description": "Developer portfolio",
+  "main": "index.js",
+  "repository": "git@github.com:kwilmot/portfolio.git",
+  "author": "Kevin Wilmot",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w src/scss -o dist/css/ --recursive"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
