@@ -64,6 +64,13 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .boxes {
+    div {
+      font-size: 16px;
+      padding: 0.75rem 1.75rem;
+    }
+  }
 }
 
 // Phones
